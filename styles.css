@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* always put this  */
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.intro {
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 900px;
+  text-align: center;
+  margin-left: 60px;
+}
+body {
+  background: #fbfbfa url("images/bg-header-desktop.png") top left no-repeat;
+
+  color: #464340;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+h1,
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+h1 {
+  margin-top: 20spx;
+  font-size: 30px;
+  font-weight: 3000;
+}
+h2 {
+  font-size: 20px;
+  margin-left: 400px;
+  font-weight: 3000;
+}
+
+p {
+  /* text-align: center; */
+  font-size: 16px;
+  margin-left: 400px;
+  /* margin-right: 100px; */
+  /* border-radius: 4px; */
+  margin-top: 10px;
+  color: rgb(175, 172, 172);
+}
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  padding: 10px;
+  margin-left: 400px;
+}
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+.ios:hover {
+  border-radius: 20px;
+}
+.mac:hover {
+  border-radius: 20px;
+}
+#c {
+  top: 80px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  /* width: 50%; */
+}
+
+.mid {
+  margin-left: 800px;
+  padding-right: 400px;
+  margin-top: 100px;
+}
+.mid_par {
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+#computer {
+  float: left;
+  display: inline-block;
+  width: 700px;
+  margin-left: -50px;
+}
+#last_mid_par {
+  margin-bottom: 200px;
+}
+#devices {
+  margin-left: 350px;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.end {
+  display: flex;
+  margin-left: 150px;
+  text-align: center;
+}
+.end-head {
+  white-space: nowrap;
+}
+.end-par {
+  margin-left: -200px;
+  padding-right: 200px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  white-space: normal;
+}
+/* #intro-last {
+  margin-bottom: 0px;
+  padding-bottom: 0;
+} */
+#blacklist,
+#preview,
+#text {
+  margin-left: 195px;
+  /* padding-right: 230px; */
+  margin-right: 230px;
+  padding-top: 0;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+.end-head:hover {
+  color: rgb(6, 170, 88);
+}
+#text:hover {
+  transition: all 0.4s ease-in;
+  transform: translateY(10px);
+}
+#blacklist:hover {
+  transition: all 0.4s ease-in;
+  transform: translateY(10px);
+}
+#preview:hover {
+  transition: all 0.4s ease-in;
+  transform: translateY(10px);
+}
+h1:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+  color: rgb(6, 170, 88);
+}
+h2:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+}
+h3:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+}
+.multi-logos {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 150px;
+}
+#google-logo,
+#ibm-logo,
+#hp-logo,
+#microsoft-logo,
+#vector-logo {
+  margin-right: 150px;
+  width: 100px;
+}
+#google-logo:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+  opacity: 0.2;
+}
+#ibm-logo:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+  opacity: 0.2;
+}
+#hp-logo:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+  opacity: 0.2;
+}
+#microsoft-logo:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+  opacity: 0.2;
+}
+#vector-logo:hover {
+  transition: all 0.4s ease-in;
+  transform: translateX(10px);
+  opacity: 0.2;
+}
+footer {
+  background-color: rgb(221, 218, 218);
+}
+.footer-list {
+  display: flex;
+  margin-bottom: 50px;
+}
+#footer-c {
+  width: 40px;
+  display: flex;
+  position: relative;
+  margin-left: 60px;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+.small-logos {
+  display: flex;
+  width: 2px;
+  margin-left: 1300px;
+}
+.footer--sub {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 50px;
+  margin-top: -30px;
+  white-space: nowrap;
+}
+.fb,
+.twitter,
+.insta {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: -70px;
+  width: 30px;
+  height: 30px;
+}
+.fb:hover {
+  background-color: blue;
+}
+.twitter:hover {
+  background-color: aqua;
+}
+.insta:hover {
+  border-radius: 10px;
+  background-color: rgb(161, 83, 83);
+}
+
+#sub1,
+#sub2 {
+  padding-bottom: 50px;
+}
+
+.footer--sub:hover {
+  color: blue;
+}
